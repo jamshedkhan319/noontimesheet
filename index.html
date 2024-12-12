@@ -3,15 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NOON TIME SHEET</title>
+  <title>Simple Login System</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="app">
+  <div id="login-screen">
+    <h2>ONLY PERSONAL</h2>
+    <form id="login-form">
+      <input type="password" id="password" placeholder="Enter Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div id="app" style="display: none;">
+    <div class="profile">
+      <img src="noon.png" alt="Profile Picture" class="profile-pic">
+    </div>
     <h1>NOON TIME SHEET</h1>
-    <p>NOON GRAND.JAMAHED KHAN</p>
+    <p>it Operators: Jamahed Khan</p>
     <a href="https://script.google.com/macros/s/AKfycbwxWwV3UABgdsvTJhi_J4JrtKJXf69CB88qIZU5i87PRH8nkNlp2s2QzG2xw7Mr8003gw/exec" target="_blank" id="myLink">Go to</a>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
