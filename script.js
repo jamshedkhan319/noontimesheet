@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const appScreen = document.getElementById("app");
 
   // Default password
-  const validPassword = "noon135";
+  const validPassword = "noon13579";
 
   loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
